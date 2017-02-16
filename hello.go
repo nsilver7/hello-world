@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	fmt.Println("nonce: ", time.Now().Unix()*10000)
+	fmt.Println("nonce: ", time.Now().Unix()*10000000)
 	fmt.Printf("hello, world\n")
 	fmt.Printf(stringutil.Reverse("hello, world")+"\n")
 }
